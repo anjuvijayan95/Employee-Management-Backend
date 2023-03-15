@@ -72,9 +72,10 @@ const updateEmployee=(id,uname,age,desg,salary,mobile,mail,image)=>{
                 result.age=age,
                 result.desg=desg,
                 result.salary=salary,
-                result.image=image,
+                result.mobile=mobile,
                 result.mail=mail,
-                result.mobile=mobile
+                result.image=image,
+
 
                 result.save()
                 return{

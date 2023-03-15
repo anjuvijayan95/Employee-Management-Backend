@@ -71,9 +71,9 @@ server.post('/update-employees',(req,res)=>{
         req.body.ageEmp,
         req.body.desgEmp,
         req.body.salaryEmp,
-        req.body.imageEmp,
+        req.body.mobileEmp,
         req.body.mailEmp,
-        req.body.mobileEmp
+        req.body.imageEmp
         )
         
     .then((result)=>{
